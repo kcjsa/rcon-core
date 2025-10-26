@@ -1,9 +1,11 @@
 rcsh_control_core
+=====
 
 rcsh_control_core は、TCP 経由で RCON コマンドを Minecraft サーバーに送信できる Rust 製のコントロールコアです。
 単一のパスワード（Core マスターパスワード）で複数サーバーを一元管理し、セキュアにコマンドを送信できます。
 
 特徴
+====
 
 TCP ポート（デフォルト: 3577）で Core に接続
 
@@ -18,6 +20,7 @@ YAML 形式で簡単に設定可能
 SSH は省略（RCON 専用）
 
 動作環境
+====
 
 Rust 1.72 以降推奨
 
@@ -52,9 +55,9 @@ servers:
 addr は IP:Port 形式
 
 password は各サーバーの RCON パスワード
-=====
-使用方法
 
+使用方法
+======
 TCP クライアントから Core に接続してコマンド送信:
 
 echo 'rcon1:!say Hello World:\kr_mc' | nc 127.0.0.1 3577
