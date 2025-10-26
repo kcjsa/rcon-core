@@ -1,0 +1,10 @@
+control_port: 3577
+common_password: "kr_mc"
+
+servers:
+  rcon1:
+    addr: "192.168.1.100:25575"
+    password: "kr-mc"
+  rcon2:
+    addr: "192.168.1.101:25575"
+    password: "bacon"
