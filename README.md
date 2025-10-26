@@ -34,7 +34,7 @@ cargo build --release
 ビルド後、実行ファイルは target/release/rcsh_control_core に生成されます。
 
 設定ファイル
-
+=====
 ファイル名: rcsh.yml
 
 control_port: 3577  # Core が待ち受けるTCPポート
@@ -52,7 +52,7 @@ servers:
 addr は IP:Port 形式
 
 password は各サーバーの RCON パスワード
-
+=====
 使用方法
 
 TCP クライアントから Core に接続してコマンド送信:
