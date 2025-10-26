@@ -1,5 +1,4 @@
 control_port: 3577
-web_port: 8032
 common_password: "kr_mc"
 
 servers:
